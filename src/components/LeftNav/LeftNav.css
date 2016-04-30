@@ -1,0 +1,17 @@
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid darkgrey;
+	padding: 10px;
+	width: 200px;
+}
+
+.selected {
+	background: black;
+	color: yellow;
+}
+
+.container > a {
+	padding: 5px;
+}
